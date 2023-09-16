@@ -1,0 +1,113 @@
+body {
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#EEEEEE;
+	border:1pt solid #B22222;
+	height:100%;
+	width:1000px;
+	margin:auto;
+	text-align:left;
+}
+header {
+	background-color:white;
+	color:black;
+	background-image:url("images/IWA.jpg");
+	background-repeat:no-repeat;
+	padding:5px;
+	height:100px;
+	text-align:right;
+}
+table {
+	margin-top:5px;
+	border-bottom:1pt solid #B22222;
+	border-top:1pt solid #B22222;
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+}
+th {
+	background-color:#DDDDDD;
+	border-bottom:1pt solid #CCCCCC;
+	text-align:left;
+}
+td {
+	border-bottom:1pt dotted #CCCCCC;
+	padding:2px;
+}
+a {
+	text-decoration:none;
+	color:white;
+	padding-left:5px;
+	padding-right:5px;
+}
+h1 {
+	font-size:large;
+	text-align: center;
+}
+footer {
+	clear:both;
+	text-align:center;
+}
+p, ul {
+	font-size:small;
+}
+h2, caption {
+	font-size:small;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+figure {
+	margin: 0;
+}
+.greska {
+	font-weight:bolder;
+	color:red;
+}
+.menu {
+	background-color:#B22222;
+	padding:3px;
+	text-align:center;
+}
+.aktivna {
+	color:yellow;
+	font-weight:bold;
+}
+.lijevi {
+	width:20%;
+}
+#sadrzaj {
+	clear:both;
+}
+#opis {
+	padding-left:5px;
+}
+#paginacija {
+	text-align:center;
+	background-color:#B22222;
+}
+a:hover {
+	color:yellow;
+}
+tr:hover {
+	background-color:white;
+}
+.menu a {
+	font-weight:bold;
+}
+.menu a:hover {
+	text-decoration:underline;
+}
+a.link {
+	background-color:#B22222;
+	text-align: center;
+}
+a.sortable {
+	color:#FF8C00;
+}
+#meni {
+	text-align: center;
+}
+tr.nekupljeno {
+	color: darkgray;
+	text-align: left;
+	font-weight: bold;
+}
